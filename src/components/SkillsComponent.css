@@ -1,0 +1,33 @@
+/* SkillsComponent.css */
+.skills-section.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.skills-section.animate {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.skills-container {
+  display: flex;
+  align-items: flex-start; /* Align items to the start of the container */
+}
+
+.skills-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 20px; /* Space between the list and the form */
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23px; /* Full height of the viewport */
+  }
